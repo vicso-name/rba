@@ -25,7 +25,7 @@ function Header({ onMenuToggle, onMenuItemClick }){
                 <div className="header-inner">
                       <figure>
                         <Link to="/">
-                          <img width={90} height={37} src="/img/logo.png" className="logo" alt="main_logo"/>
+                          <img width={90} height={37} src="https://vicso-name.github.io/rba/img/logo.png" className="logo" alt="main_logo"/>
                         </Link>
                       </figure>
                       <Menu/>

@@ -11,14 +11,14 @@ SwiperCore.use([Keyboard, Mousewheel]);
 function Home(){
 
     const paralaBackground = {
-        backgroundImage: 'url(img/paralax-bg.jpg)',
+        backgroundImage: 'url(https://vicso-name.github.io/rba/img/paralax-bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
     };
 
     const scrollDownBackground = {
-        backgroundImage: 'url(img/arrow-down-white.svg)'
+        backgroundImage: 'url(https://vicso-name.github.io/rba/img/arrow-down-white.svg)'
     };
     
 
@@ -64,7 +64,7 @@ function Home(){
             <section className="hero-section">
                 <figure className="bg-visual">
                     <video className="hero-video" autoPlay>
-						<source src="/img/hero_image_preview.mp4" type="video/mp4" />
+						<source src="https://vicso-name.github.io/rba/img/hero_image_preview.mp4" type="video/mp4" />
 					</video>
                 </figure>
                 <a style={scrollDownBackground} onClick={handleClick} href="#intro" className="scroll-down scroll-to scroll" >Down</a> 
@@ -185,7 +185,7 @@ function Home(){
                     </div>
                 </div>
                 <figure className="bg-visual">
-                    <img src="/img/hero-section.jpg" alt="#" />
+                    <img src="https://vicso-name.github.io/rba/img/hero-section.jpg" alt="#" />
                 </figure> 
             </section>
 
